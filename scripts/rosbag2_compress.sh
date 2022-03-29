@@ -1,4 +1,4 @@
-TARGET=$2/zst
+TARGET=$2zst
 echo "compress file list"
 find $2 -name '*.db3'
 echo "compressed file is in "$TARGET

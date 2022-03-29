@@ -1,3 +1,6 @@
+# test data
+data/
+
 # colcon
 build/
 install/

@@ -10,12 +10,13 @@
 
 Compress rosbag2 and put together for uploads
 
-- command
+- Command
+  - Be careful for last / in directory path.
 
 ```
 ./scripts/rosbag2_compress.sh {thread} {directory path}
 # example
-# ./scripts/rosbag2_compress.sh 12 ~/Downloads/rosbag
+# ./scripts/rosbag2_compress.sh 12 ~/Downloads/rosbag/
 
 ```
 
