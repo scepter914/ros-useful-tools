@@ -2,24 +2,44 @@
 
 ## Supported Feature
 
+- [x] rosbag2 selected topics record
 - [x] rosbag2 compression
-- [ ] rosbag2_record.sh
-- [ ] ros2_check_topic_values.sh
+
+### scripts/rogbag2_record.sh
+
+Record rosbag2 with choosed topics.
+
+- Change topics to record
+
+```
+RECORDTOPIC=(
+/parameter_events
+/robot_description
+/rosout
+/tf
+/tf_static
+)
+```
+
+- Command
+
+```sh
+./scripts/rogbag2_record.sh
+```
 
 ## scripts/rosbag2_compress.sh
 
-Compress rosbag2 and put together for uploads
+Compress rosbag2 and put together for uploads.
 
 - Command
   - Be careful for last / in directory path.
 
-```
+```sh
 ./scripts/rosbag2_compress.sh {thread} {directory path}
 # example
 # ./scripts/rosbag2_compress.sh 12 ~/Downloads/rosbag/
 
 ```
-
 
 - input
 
