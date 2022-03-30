@@ -1,10 +1,13 @@
-# ros2-useful-scripts
+# ros2-useful-tools
 
 ## Supported Feature
 
-- [x] rosbag2 selected topics record
-- [x] rosbag2 compression
+- Environment: Ubuntu 20.04 LTS, ROS2 Galactic
+- Supported Feature
+  - [x] rosbag2 selected topics record
+  - [x] rosbag2 compression
 
+## Get started
 ### scripts/rogbag2_record.sh
 
 Record rosbag2 with choosed topics.
