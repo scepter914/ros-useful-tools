@@ -1,12 +1,34 @@
 # rosbag2-record-launcher
 
-Launch software for rosbag2 record.
+Launcher for rosbag2 record with choosed topics.
+
+- Environment: Ubuntu 20.04 LTS, ROS2 Galactic
 
 ## Use as shell script
 
-1. Set your record topic
+1. Change record topic in [here](/scripts/rogbag2_record.sh).
 
-Example is [here](/scripts/rogbag2_record.sh)
+```
+RECORDTOPIC=(
+/parameter_events
+/robot_description
+/rosout
+/tf
+/tf_static
+)
+```
+
+2. Add authority
+
+```
+chmod a+x ./scripts/rogbag2_record.sh
+```
+
+3. Run
+
+```
+./scripts/rogbag2_record.sh
+```
 
 ## Use as ros2 launch
 
