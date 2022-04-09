@@ -8,7 +8,7 @@ import launch
 
 def generate_launch_description():
     # parameter
-    config_package_name: str = "rosbag2_recorder_launcher"
+    config_package_name: str = "rosbag2_record_launcher"
     config_file_name: str = "topic_list.txt"
     duration: int = 60
 
