@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>rosbag2-recorder-launcher</name>
+  <name>rosbag2_recorder_launcher</name>
   <version>0.0.0</version>
   <description>rosbag2-recorder-launcher</description>
   <maintainer email="scepter914@gmail.com">scepter914</maintainer>
