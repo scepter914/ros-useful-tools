@@ -4,33 +4,10 @@
 
 - Environment: Ubuntu 20.04 LTS, ROS2 Galactic
 - Supported Feature
-  - [x] rosbag2 selected topics record
   - [x] rosbag2 compression
 
 ## Get started
-### scripts/rogbag2_record.sh
-
-Record rosbag2 with choosed topics.
-
-- Change topics to record
-
-```
-RECORDTOPIC=(
-/parameter_events
-/robot_description
-/rosout
-/tf
-/tf_static
-)
-```
-
-- Command
-
-```sh
-./scripts/rogbag2_record.sh
-```
-
-## scripts/rosbag2_compress.sh
+### scripts/rosbag2_compress.sh
 
 Compress rosbag2 and put together for uploads.
 
@@ -72,4 +49,3 @@ Compress rosbag2 and put together for uploads.
 │     ├── rosbag2_2022_01_09-13_49_29_0.db3.zst
 │     └── rosbag2_2022_02_05-00_54_33_0.db3.zst
 ```
-
