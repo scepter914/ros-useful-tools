@@ -1,0 +1,4 @@
+<launch>
+    <arg name="shell_script_path" default="$(find-pkg-share rosbag2_record_launcher)/scripts/rosbag2_record.sh" />
+    <executable cmd="$(var shell_script_path)" output="screen" />
+</launch>
