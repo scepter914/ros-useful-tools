@@ -67,3 +67,6 @@ ros2 launch rosbag2_record_launcher rosbag2_all_topic_record_launch.launch.py
 ```
 
 ## history
+
+- 2022/04/09 ver 0.0.1 publish this repository
+
