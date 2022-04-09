@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(rosbag2-recorder-launcher)
+project(rosbag2_recorder_launcher)
 
 ## Compile options
 if(NOT CMAKE_CXX_STANDARD)
