@@ -1,15 +1,20 @@
-# ros2-useful-tools
+# ros-useful-tools
 
 ## Supported Feature
 
-- Environment: Ubuntu 20.04 LTS, ROS2 Galactic
-- Supported Feature
-  - [x] rosbag2 compression
+- [x] rosbag remap
+- [x] rosbag2 compression
 
-## Get started
-### scripts/rosbag2_compress.sh
+## scripts/rosbag2_compress.sh
 
 Compress rosbag2 and put together for uploads.
+
+### Environment
+
+- Ubuntu 20.04 LTS, ROS2 Galactic
+
+### Get started
+
 
 - Command
   - Be careful for last / in directory path.
@@ -49,3 +54,38 @@ Compress rosbag2 and put together for uploads.
 │     ├── rosbag2_2022_01_09-13_49_29_0.db3.zst
 │     └── rosbag2_2022_02_05-00_54_33_0.db3.zst
 ```
+
+## rosbag remap script
+
+- This is a shell script to remove unnecessary topic at rosbag playing.
+- Japanese blog <https://scepter914.github.io/blog/2021/20210804_rosbag_remap/>
+
+### Get Started
+
+- 1. Write Unnecessary topic in TOPIC_LIST
+
+```
+TOPIC_LIST=(
+/tf
+/tf_static
+/perception/object_recognition/objects
+/perception/object_recognition/tracking/objects
+/perception/object_recognition/detection/objects
+/localization/twist
+)
+```
+
+- 2. Add execution permission
+
+```sh
+chmod a+x rosbag_remap.sh
+```
+
+- 3. Execute script
+
+```sh
+./rosbag_remap.sh file.bag
+# If you want to use option
+./rosbag_remap.sh file.bag -r 0.5
+```
+
