@@ -2,7 +2,7 @@
 
 ## Supported Feature
 
-- [rosbag2_compress](rosbag2_compress/)
+- [compress_rosbag2](compress_rosbag2/)
 
 Compress rosbag2 to zst files and put together for sharing.
 

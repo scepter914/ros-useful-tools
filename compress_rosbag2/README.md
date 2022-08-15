@@ -1,5 +1,5 @@
 
-## rosbag2_compress
+## compress_rosbag2
 
 Compress rosbag2 to zst files and put together for sharing.
 
@@ -13,9 +13,9 @@ Compress rosbag2 to zst files and put together for sharing.
   - Be careful for last / in directory path.
 
 ```sh
-./scripts/rosbag2_compress.sh {thread} {directory path}
+./scripts/compress_rosbag2.sh {thread} {directory path}
 # example
-# ./scripts/rosbag2_compress.sh 12 ~/Downloads/rosbag/
+# ./scripts/compress_rosbag2.sh 12 ~/Downloads/rosbag/
 
 ```
 
