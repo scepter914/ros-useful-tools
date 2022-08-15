@@ -1,14 +1,13 @@
 
-## scripts/rosbag2_compress.sh
+## rosbag2_compress
 
 Compress rosbag2 to zst files and put together for sharing.
 
-### Environment
+### Confirmed environment
 
 - Ubuntu 20.04 LTS, ROS2 Galactic
 
 ### Get started
-
 
 - Command
   - Be careful for last / in directory path.
