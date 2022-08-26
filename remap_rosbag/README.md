@@ -1,5 +1,5 @@
 
-## rosbag_remap
+## remap_rosbag
 
 - This is a shell script to remove unnecessary topic at rosbag playing.
 - Japanese blog <https://scepter914.github.io/blog/2021/20210804_rosbag_remap/>
@@ -26,14 +26,13 @@ TOPIC_LIST=(
 - 2. Add execution permission
 
 ```sh
-chmod a+x rosbag_remap.sh
+chmod a+x remap_rosbag.sh
 ```
 
 - 3. Execute script
 
 ```sh
-./rosbag_remap.sh file.bag
+./remap_rosbag.sh file.bag
 # If you want to use option
-./rosbag_remap.sh file.bag -r 0.5
+./remap_rosbag.sh file.bag -r 0.5
 ```
-
