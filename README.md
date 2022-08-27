@@ -1,6 +1,12 @@
 # ros-useful-tools
+## Python package
 
-## Supported Feature
+- [rosbag2_loader_py](rosbag2_loader_py/)
+
+Python library loading rosbag2 topic data.
+Maybe useful for offline anaysis from rosbag2.
+
+## Shell script
 
 - [reindex_rosbag2 (ROS2)](reindex_rosbag2/)
 
