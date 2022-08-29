@@ -1,7 +1,7 @@
 # ros-useful-tools
 ## ROS package
 
-- [record_rosbag2 (ROS2))](record_rosbag2/)
+- [record_rosbag2 (ROS2)](record_rosbag2/)
 
 Record rosbag2 with specified topic name.
 This package can be used as shell scripts.
