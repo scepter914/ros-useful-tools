@@ -8,7 +8,7 @@ This package can be used as shell scripts.
 
 ## Python package
 
-- [rosbag2_loader_py (ROS2)](rosbag2_loader_py/)
+- [load_rosbag2_py (ROS2)](load_rosbag2_py/)
 
 Python library loading rosbag2 topic data.
 Maybe useful for offline anaysis from rosbag2.
