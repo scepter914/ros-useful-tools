@@ -1,4 +1,11 @@
 # ros-useful-tools
+## ROS package
+
+- [record_rosbag2](record_rosbag2/)
+
+Record rosbag with specified topic name.
+This package can be used as shell scripts.
+
 ## Python package
 
 - [rosbag2_loader_py](rosbag2_loader_py/)
