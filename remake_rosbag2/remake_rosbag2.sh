@@ -18,12 +18,12 @@ TOUCH_PATH=$ROSBAG_PATH"/"$ROSBAG_NAME_WITHOUT_EXT
 
 
 ### Make recording topic ###
-# perception debug topic
+### Record topic with regular expressions ###
 ALLTOPIC=""
 PERCEPTION_TOPIC=$(ros2 topic list | grep --regexp="/perception/object_recognition/*")
 ALLTOPIC="$ALLTOPIC $PERCEPTION_TOPIC"
 
-# other topic
+### Record topic ###
 RECORDTOPIC=(
 /tf
 /tf_static
@@ -36,7 +36,7 @@ for i in ${RECORDTOPIC[@]}; do
 done
 
 ### Record rosbag2 ###
-echo $ALLTOPIC
+# echo $ALLTOPIC
 ros2 bag record $ALLTOPIC -o $ROSBAG_PATH
 
 ### Run touch command to log original rosbag path ###

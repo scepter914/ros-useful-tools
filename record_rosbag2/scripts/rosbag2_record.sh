@@ -1,17 +1,20 @@
 #!/bin/bash
 
+ALLTOPIC=""
+
+### Record topic with regular expressions ###
+PERCEPTION_TOPIC=$(ros2 topic list | grep --regexp="/perception/object_recognition/*")
+ALLTOPIC="$ALLTOPIC $PERCEPTION_TOPIC"
+
+### Record topic ###
 RECORDTOPIC=(
-/parameter_events
-/robot_description
-/rosout
 /tf
 /tf_static
 )
-
-ALLTOPIC=""
 
 for i in ${RECORDTOPIC[@]}; do
   ALLTOPIC="$ALLTOPIC $i"
 done
 
+### Record rosbag2 ###
 ros2 bag record $ALLTOPIC -d 60
