@@ -1,14 +1,14 @@
 # ros-useful-tools
 ## ROS package
 
-- [record_rosbag2](record_rosbag2/)
+- [record_rosbag2 (ROS2))](record_rosbag2/)
 
-Record rosbag with specified topic name.
+Record rosbag2 with specified topic name.
 This package can be used as shell scripts.
 
 ## Python package
 
-- [rosbag2_loader_py](rosbag2_loader_py/)
+- [rosbag2_loader_py (ROS2)](rosbag2_loader_py/)
 
 Python library loading rosbag2 topic data.
 Maybe useful for offline anaysis from rosbag2.
