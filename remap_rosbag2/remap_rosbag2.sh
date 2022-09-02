@@ -1,7 +1,12 @@
-
 #!/bin/bash
 
 FILE_NAME=$@
+
+TOPIC_FILTER=""
+
+### Record topic with regular expressions ###
+PERCEPTION_TOPIC=$(ros2 topic list | grep --regexp="/perception/object_recognition/*")
+TOPIC_FILTER="$TOPIC_FILTER $PERCEPTION_TOPIC"
 
 TOPIC_LIST=(
 /perception/object_recognition/detection/objects
@@ -9,7 +14,6 @@ TOPIC_LIST=(
 /perception/object_recognition/objects
 )
 
-TOPIC_FILTER=""
 for TOPIC in ${TOPIC_LIST[@]}; do
   TOPIC_FILTER+=" "
   TOPIC_FILTER+=$TOPIC
