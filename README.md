@@ -25,6 +25,10 @@ Remake rosbag2 for analyze and debug
 
 Compress rosbag2 to zst files and put together for sharing.
 
+- [[check_rosbag2 (ROS2)]](check_rosbag2/)
+
+Check to record rosbag topic.
+
 - [reindex_rosbag2 (ROS2)](reindex_rosbag2/)
 
 Reindex each rosbag files.
