@@ -37,4 +37,3 @@ This script make metadata.yaml, which became mandatory from ROS2 humble (ubuntu2
 - [remap_rosbag (ROS1)](remap_rosbag/)
 
 Remove unnecessary topic at rosbag playing.
-

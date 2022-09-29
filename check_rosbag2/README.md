@@ -1,8 +1,6 @@
-
 # check_rosbag2
 
 Check to record rosbag topic.
-
 
 ## Confirmed environment
 
@@ -13,4 +11,3 @@ Check to record rosbag topic.
 ```sh
 ./check_rosbag2.sh path_to_rosbag/input_rosbag.db3
 ```
-

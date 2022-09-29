@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 ### Setting output directory ###

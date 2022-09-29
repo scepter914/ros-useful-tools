@@ -1,14 +1,13 @@
-
-## remake_rosbag2
+# remake_rosbag2
 
 - This is a shell script to remove unnecessary topic at rosbag2 playing.
 
-### Confirmed environment
+## Confirmed environment
 
 - Ubuntu 20.04 LTS, ROS Galactic
 - Ubuntu 22.04 LTS, ROS Humble
 
-### Get started
+## Get started
 
 - Set topic name for script file
 

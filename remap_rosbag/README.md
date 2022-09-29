@@ -1,14 +1,13 @@
-
-## remap_rosbag
+# remap_rosbag
 
 - This is a shell script to remove unnecessary topic at rosbag playing.
 - Japanese blog <https://scepter914.github.io/blog/2021/20210804_rosbag_remap/>
 
-### Confirmed environment
+## Confirmed environment
 
 - Ubuntu 20.04 LTS, ROS Noetic
 
-### Get Started
+## Get Started
 
 - 1. Write Unnecessary topic in TOPIC_LIST
 
