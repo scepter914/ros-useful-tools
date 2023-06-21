@@ -25,13 +25,17 @@ Remake rosbag2 for analyze and debug
 
 Compress rosbag2 to zst files and put together for sharing.
 
+- [down_ros2 (ROS2)](down_ros2/)
+
+Down ROS2.
+
 - [[check_rosbag2 (ROS2)]](check_rosbag2/)
 
 Check to record rosbag topic.
 
 - [reindex_rosbag2 (ROS2)](reindex_rosbag2/)
 
-Reindex each rosbag files.
+Re-index each rosbag files.
 This script make metadata.yaml, which became mandatory from ROS2 humble (ubuntu22).
 
 - [remap_rosbag (ROS1)](remap_rosbag/)
