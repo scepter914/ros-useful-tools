@@ -27,7 +27,7 @@ Compress rosbag2 data to compressd zst files and put together for sharing.
 
 - [down_ros2 (ROS2)](down_ros2/)
 
-Down ROS2.
+Down ROS2 process.
 
 - [[check_rosbag2 (ROS2)]](check_rosbag2/)
 
