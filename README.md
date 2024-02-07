@@ -6,6 +6,11 @@
 Python library loading rosbag2 topic data.
 Maybe useful for offline anaysis from rosbag2 data.
 
+- [nuscenes_rosbag](nuscenes_rosbag/)
+
+Make rosbag for nuScenes dataset.
+It can be used for ROS1 and ROS2
+
 ## Shell script
 
 - [remap_rosbag2 (ROS2)](remap_rosbag2/)
