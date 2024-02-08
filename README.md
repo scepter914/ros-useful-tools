@@ -34,7 +34,7 @@ Compress rosbag2 data to compressd zst files and put together for sharing.
 
 Down ROS2 process.
 
-- [[check_rosbag2 (ROS2)]](check_rosbag2/)
+- [check_rosbag2 (ROS2)](check_rosbag2/)
 
 Check to record rosbag2 data topic.
 
