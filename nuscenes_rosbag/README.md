@@ -88,7 +88,7 @@ python3 scripts/main.py
 - Run command to make rosbag for ROS2
 
 ```
-find $1 -name '*.bag' | xargs -n1 rosbags-convert {}
+find $1 -name '*.bag' -print0 | xargs -0 -I {} rosbags-convert {}
 ```
 
 ## Reference
