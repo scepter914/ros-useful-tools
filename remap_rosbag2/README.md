@@ -11,14 +11,15 @@
 
 - 1. Write Unnecessary topic in TOPIC_LIST
 
-```
+```sh
+# Record topic with regular expressions
+PERCEPTION_TOPIC=$(ros2 bag info $FILE_NAME | awk '{print $2}' | grep --regexp="/perception/*")
+
+# topic list
 TOPIC_LIST=(
-/tf
-/tf_static
-/perception/object_recognition/objects
-/perception/object_recognition/tracking/objects
 /perception/object_recognition/detection/objects
-/localization/twist
+/perception/object_recognition/tracking/objects
+/perception/object_recognition/objects
 )
 ```
 
